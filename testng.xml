@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <!--  <test thread-count="3" name="Test" parallel="methods"> -->
+  <test thread-count="3" name="Test">
+    <classes>      
+      <!-- <class name="TestCases.ParallelTest"/> -->
+      <class name ="TestCases.first_Test"/>  
+     
+     
+     
+     <!--  To Run from command prmpt -->
+     <!--  1 from node ) java -Dwebdriver.chrome.driver="C:/Users/shubhamGupta3/Documents/SeleniumService/Driver/chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.43.164:4444/grid/register -port 4467
+           2 from hub  ) java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+
+
+
+       -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
